@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/dan_simovici_img.jpg",
+        "name": "Dan SIMOVICI",
+        "university" : "University of Massachusetts",
+        "location" : "Boston, USA"
+    },
+    {
+        "img": "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/sorin_istrail_img.jpg",
+        "name": "Sorin ISTRAIL",
+        "university" : "Brown University, Providence,",
+        "location" : "Rhode Island, USA"
+    },
+    {
+        "img": "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/danielaZaharie.png",
+        "name": "Daniela ZAHARIE",
+        "university" : "West University, Timișoara,",
+        "location" : "Romania"
+    },
+    {
+        "img": "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/mihai_suciu.jpg",
+        "name": "Mihai SUCIU",
+        "university" : "Babes-Bolyai University,",
+        "location" : "Cluj-Napoca, Romania"
+    }
+]

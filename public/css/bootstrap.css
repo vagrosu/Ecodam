@@ -1582,24 +1582,28 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    /* display: block; */
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    /* display: block; */
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    /* display: block; */
   }
 }
 .container-fluid {
@@ -4169,6 +4173,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
@@ -4176,7 +4181,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+   
   }
 }
 .navbar-collapse {
@@ -4219,6 +4224,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
+
+  .navbar-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
@@ -4272,9 +4284,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  /* height: 50px; */
+  /* padding: 15px 15px; */
   font-size: 18px;
   line-height: 20px;
 }

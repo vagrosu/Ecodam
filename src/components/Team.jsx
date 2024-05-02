@@ -3,13 +3,13 @@ import React from "react";
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
-      <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
+      <div style={{flexDirection: "column", alignItems:"center", justifyContent:"center"}} className="container">
+        <div >
+          <h2 style={{width:"fit-content"}}>Speakers</h2>
+          {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
-          </p>
+          </p> */}
         </div>
         <div id="row">
           {props.data
@@ -20,7 +20,8 @@ export const Team = (props) => {
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>
-                      <p>{d.job}</p>
+                      <p>{d.university}</p>
+                      <p>{d.location}</p>
                     </div>
                   </div>
                 </div>

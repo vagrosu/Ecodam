@@ -1,6 +1,9 @@
 import React from "react";
+import logo from "./../images/logo.jpg"
+import bitdefenderlogo from "./../images/bitdefender_logo.png"
+import { hover } from "@testing-library/user-event/dist/hover";
 
-export const Header = (props) => {
+export const Header = ({title,paragraph}) => {
   return (
     <header id="header">
       <div className="intro">
@@ -8,17 +11,25 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
+                <img src={logo} alt="logo"></img>
+                <h1 style={{
+                  fontSize: "3em",
+                  color: "black",
+                  padding: "40px",
+                }}>
+                  {title ? title : "Loading"}
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p style={{
+                  fontSize: "1em",
+                  color: "black",
+                  fontWeight: "bolder"
+                }}>{paragraph ? paragraph : "Loading"}</p>
                 <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
+                  href="https://www.bitdefender.ro"
                 >
-                  Learn More
+                  <img width={100} src={bitdefenderlogo} alt="bitdefender_logo"></img>
                 </a>{" "}
+
               </div>
             </div>
           </div>
