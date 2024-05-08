@@ -5,7 +5,7 @@ import { hover } from "@testing-library/user-event/dist/hover";
 
 export const Header = ({title,paragraph}) => {
   return (
-    <header id="header">
+    <header id="home">
       <div className="intro">
         <div className="overlay">
           <div className="container">

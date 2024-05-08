@@ -245,10 +245,10 @@ header .intro-text {
   text-align: center;
 }
 /* Features Section */
-#features {
+#home {
   background: #f6f6f6;
 }
-#features i.fa {
+#home i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -261,19 +261,19 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-#about {
+#speakers {
   padding: 100px 0;
 }
-#about h3 {
+#speakers h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
-#about h2 {
+#speakers h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#about h2::after {
+#speakers h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -282,13 +282,13 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
+#speakers .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#speakers .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
@@ -296,30 +296,30 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+#speakers img {
   width: 520px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
+#speakers p {
   line-height: 24px;
   margin: 30px 0;
 }
 /* Services Section */
-#services {
+#program {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
-#services .service-desc {
+#program .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#program h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#program .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -329,7 +329,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#program i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -339,19 +339,19 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#program h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#program p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+#program .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
-#portfolio {
+#participants {
   padding: 100px 0;
 }
 .portfolio-item {
@@ -400,11 +400,11 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
-#testimonials {
+#sponsor {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#testimonials i {
+#sponsor i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
@@ -458,24 +458,24 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
-#contact {
+#editions {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
-#contact .section-title {
+#editions .section-title {
   margin-bottom: 40px;
 }
-#contact .section-title p {
+#editions .section-title p {
   font-size: 16px;
 }
-#contact h2 {
+#editions h2 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#contact .section-title h2::after {
+#editions .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -484,26 +484,26 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
-#contact h3 {
+#editions h3 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
 }
-#contact form {
+#editions form {
   padding-top: 20px;
 }
-#contact .text-danger {
+#editions .text-danger {
   color: #cc0033;
   text-align: left;
 }
-#contact .btn-custom {
+#editions .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }
-#contact .btn-custom:hover {
+#editions .btn-custom:hover {
   color: #1f386e;
   background: #fff;
 }
@@ -513,7 +513,7 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .form-control {
+#editions .form-control {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -530,7 +530,7 @@ label {
   -o-transition: none;
   transition: none;
 }
-#contact .form-control:focus {
+#editions .form-control:focus {
   border-color: #999;
   outline: 0;
   -webkit-box-shadow: transparent;
@@ -548,28 +548,28 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item {
+#editions .contact-item {
   margin: 20px 0;
 }
-#contact .contact-item span {
+#editions .contact-item span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#editions .contact-item i.fa {
   margin-right: 10px;
 }
-#contact .social {
+#editions .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
   margin-top: 50px;
   text-align: center;
 }
-#contact .social ul li {
+#editions .social ul li {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#editions .social i.fa {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -579,7 +579,7 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
+#editions .social i.fa:hover {
   color: #608dfd;
   background: #fff;
 }
@@ -600,7 +600,7 @@ label {
 }
 
 @media (max-width: 768px) {
-  #about img {
+  #speakers img {
     margin: 50px 0;
   }
 }

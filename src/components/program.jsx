@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Services = (props) => {
+export const Program = (props) => {
   return (
-    <div id="services" className="text-center">
+    <div id="program" className="text-center">
       <div className="container">
         <div>
           <div style={{textAlign: "center"}}>

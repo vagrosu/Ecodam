@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Team = (props) => {
+export const Speakers = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="speakers" className="text-center">
       <div style={{flexDirection: "column", alignItems:"center", justifyContent:"center"}} className="container">
         <div >
           <h2 style={{width:"fit-content"}}>Speakers</h2>
