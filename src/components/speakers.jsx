@@ -1,8 +1,14 @@
 import React from "react";
+import styled from "styled-components";
+
+const SectionContainer = styled.div`
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+`
 
 export const Speakers = (props) => {
   return (
-    <div id="speakers" className="text-center">
+    <SectionContainer id="speakers" className="text-center">
       <div style={{flexDirection: "column", alignItems:"center", justifyContent:"center"}} className="container">
         <div >
           <h2 style={{width:"fit-content"}}>Speakers</h2>
@@ -29,6 +35,6 @@ export const Speakers = (props) => {
             : "loading"}
         </div>
       </div>
-    </div>
+    </SectionContainer>
   );
 };
