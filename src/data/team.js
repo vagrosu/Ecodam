@@ -68,4 +68,23 @@ export const volunteers = [
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
+  {
+    image: "",
+    name: "Ochian Andrei-Iulian",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  {
+    image: "",
+    name: "Pricope Marius Andrei",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  {
+    image: "",
+    name: "Grosu Victor",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  
 ]

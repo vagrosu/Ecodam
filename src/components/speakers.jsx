@@ -1,34 +1,151 @@
 import React from "react";
+import styled from 'styled-components';
+
+const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 100%;
+    margin-bottom: 20px;
+
+    &:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+`;
+
+const ImageContainer = styled.div`
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+const ProfileImage = styled.img`
+    max-width: 100%;
+    max-height: 100%;
+`;
+
+const Name = styled.h4`
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+`;
+
+const Role = styled.p`
+    font-size: 14px;
+    color: #666;
+`;
+
+const School = styled.p`
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+`;
+
+const ResponsiveContainer = styled.div`
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
+`;
+
+const TeamContainer = styled.div`
+    padding: 50px 20px;
+    background: #f8f8f8;
+`;
+
+const Section = styled.div`
+    margin-bottom: 40px;
+`;
+
+const Title = styled.h2`
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+        height: 4px;
+        width: 60px;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+`;
+
+const Subtitle = styled.h3`
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+`;
+
+const MembersContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+`;
+
+
+
+const SpeakerCard = ({speaker}) => {
+  return (
+    <Card className="col-md-4">
+      <ImageContainer>
+        <ProfileImage
+          src={speaker.img || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
+          alt={speaker.name}
+        />
+      </ImageContainer>
+      <Name>{speaker.name}</Name>
+      <Role className="text-muted">{speaker.university}</Role>
+      <School className="text-muted">{speaker.location}</School>
+    </Card>
+  );
+}
 
 export const Speakers = (props) => {
   return (
-    <div id="speakers" className="text-center">
-      <div style={{flexDirection: "column", alignItems:"center", justifyContent:"center"}} className="container">
-        <div >
-          <h2 style={{width:"fit-content"}}>Speakers</h2>
-          {/* <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p> */}
-        </div>
-        <div id="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.university}</p>
-                      <p>{d.location}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
-        </div>
-      </div>
-    </div>
+    <TeamContainer id="speakers">
+      <ResponsiveContainer>
+        <Section>
+          <Title>Speakers</Title>
+          <MembersContainer>
+            {props.data.map((speaker, i) => (
+              <SpeakerCard key={`${speaker.name}-${i}`} speaker={speaker}/>
+            ))}
+          </MembersContainer>
+        </Section>
+      </ResponsiveContainer>
+    </TeamContainer>
   );
 };

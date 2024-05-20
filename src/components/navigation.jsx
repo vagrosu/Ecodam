@@ -29,27 +29,27 @@ export const Navigation = () => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#home" className="page-scroll">
+              <a href="#features" className="page-scroll">
                 Home
               </a>
             </li>
             <li>
-              <a href="#speakers" className="page-scroll">
+              <a href="#about" className="page-scroll">
                 Speakers
               </a>
             </li>
             <li>
-              <a href="#program" className="page-scroll">
+              <a href="#services" className="page-scroll">
                 Program
               </a>
             </li>
             <li>
-              <a href="#participants" className="page-scroll">
+              <a href="#portfolio" className="page-scroll">
                 Participants
               </a>
             </li>
             <li>
-              <a href="#sponsor" className="page-scroll">
+              <a href="#testimonials" className="page-scroll">
                 Sponsor
               </a>
             </li>
@@ -59,7 +59,7 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#editions" className="page-scroll">
+              <a href="#contact" className="page-scroll">
                 Previous Editions
               </a>
             </li>

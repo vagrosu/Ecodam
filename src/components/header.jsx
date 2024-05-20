@@ -25,7 +25,7 @@ export const Header = ({title,paragraph}) => {
                   fontWeight: "bolder"
                 }}>{paragraph ? paragraph : "Loading"}</p>
                 <a
-                  href="https://www.bitdefender.ro"
+                  href="https://www.bitdefender.ro" id="sponsors"
                 >
                   <img width={100} src={bitdefenderlogo} alt="bitdefender_logo"></img>
                 </a>{" "}
