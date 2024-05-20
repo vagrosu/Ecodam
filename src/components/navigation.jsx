@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./../images/logo.jpg"
 
 export const Navigation = () => {
   return (
@@ -19,7 +18,7 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img width={100} src={logo} alt="logo"></img>
+            <img width={100} src={"/img/logos/logo.jpg"} alt="logo"></img>
           </a>{" "}
         </div>
 
@@ -43,14 +42,14 @@ export const Navigation = () => {
                 Program
               </a>
             </li>
-            <li>
-              <a href="#participants" className="page-scroll">
-                Participants
-              </a>
-            </li>
+            {/*<li>*/}
+            {/*  <a href="#participants" className="page-scroll">*/}
+            {/*    Participants*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <li>
               <a href="#sponsor" className="page-scroll">
-                Sponsor
+                Sponsors
               </a>
             </li>
             <li>
@@ -58,18 +57,18 @@ export const Navigation = () => {
                 Team
               </a>
             </li>
+            {/*<li>*/}
+            {/*  <a href="#editions" className="page-scroll">*/}
+            {/*    Previous Editions*/}
+            {/*  </a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a href="#gallery" className="page-scroll">*/}
+            {/*    Gallery*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <li>
               <a href="#editions" className="page-scroll">
-                Previous Editions
-              </a>
-            </li>
-            <li>
-              <a href="#gallery" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>

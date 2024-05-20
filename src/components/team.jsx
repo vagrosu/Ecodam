@@ -65,7 +65,8 @@ const ResponsiveContainer = styled.div`
 
 const TeamContainer = styled.div`
     padding: 50px 20px;
-    background: #f8f8f8;
+    //background: #f8f8f8;
+    background: white;
 `;
 
 const Section = styled.div`

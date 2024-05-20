@@ -6,6 +6,8 @@ import {Program} from "./components/program"
 import {Speakers} from './components/speakers';
 import {Team} from "./components/team";
 import data from "./data/speakers.json"
+import {Sponsors} from "./components/sponsors";
+import {Contact} from "./components/contact";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -17,10 +19,12 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 6 - 8, 2023 Alexandru Ioan Cuza University of Iasi, Romania"}/>
-      <Speakers data={data}/>
-      <Program/>
+      <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 6 - 8, 2023 Alexandru Ioan Cuza University of Iasi, Romania"} />
+      <Speakers data={data} />
+      <Program />
+      <Sponsors />
       <Team/>
+      <Contact />
     </div>
   );
 }

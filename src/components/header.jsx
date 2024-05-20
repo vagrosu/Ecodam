@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "./../images/logo.jpg";
-import bitdefenderlogo from "./../images/bitdefender_logo.png";
 
 const HeaderContainer = styled.header`
   height: 100%;
@@ -52,7 +50,7 @@ export const Header = ({ title, paragraph }) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <img src={logo} alt="logo"></img>
+                <img src={"/img/logos/logo.jpg"} alt="logo"></img>
                 <h1 style={{
                   fontSize: "3em",
                   color: "black",
@@ -68,7 +66,7 @@ export const Header = ({ title, paragraph }) => {
                 <a
                   href="https://www.bitdefender.ro" id="sponsors"
                 >
-                  <img width={100} src={bitdefenderlogo} alt="bitdefender_logo"></img>
+                  <img width={100} src={"/img/logos/bitdefender_logo.png"} alt="bitdefender_logo"></img>
                 </a>{" "}
 
               </div>

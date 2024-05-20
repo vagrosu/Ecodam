@@ -42,13 +42,14 @@ const Name = styled.h4`
 const Role = styled.p`
     font-size: 14px;
     color: #666;
+    margin: 8px 0 0 0 !important;
 `;
 
 const School = styled.p`
     text-align: center;
     font-size: 14px;
     color: #888;
-    margin: 0;
+    margin: 0 !important;
 `;
 
 const ResponsiveContainer = styled.div`
@@ -96,27 +97,18 @@ const Title = styled.h2`
         height: 4px;
         width: 60px;
         bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 50% !important;
+        transform: translateX(-50%) !important;
     }
 `;
 
-const Subtitle = styled.h3`
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: #555;
-    text-align: center;
-    margin-bottom: 20px;
-`;
-
 const MembersContainer = styled.div`
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     justify-content: center;
 `;
-
-
 
 const SpeakerCard = ({speaker}) => {
   return (
