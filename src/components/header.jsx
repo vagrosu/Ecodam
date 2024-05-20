@@ -50,7 +50,7 @@ export const Header = ({ title, paragraph }) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <img src={"/img/logos/logo.jpg"} alt="logo"></img>
+                <img src={process.env.PUBLIC_URL + "/img/logos/logo.jpg"} alt="logo"></img>
                 <h1 style={{
                   fontSize: "3em",
                   color: "black",
@@ -66,7 +66,7 @@ export const Header = ({ title, paragraph }) => {
                 <a
                   href="https://www.bitdefender.ro" id="sponsors"
                 >
-                  <img width={100} src={"/img/logos/bitdefender_logo.png"} alt="bitdefender_logo"></img>
+                  <img width={100} src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"} alt="bitdefender_logo"></img>
                 </a>{" "}
 
               </div>

@@ -75,13 +75,13 @@ export const volunteers = [
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
-    image: "/img/team/pricope_marius_andrei.jpeg",
+    image: process.env.PUBLIC_URL + "/img/team/pricope_marius_andrei.jpeg",
     name: "Marius Andrei PRICOPE",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
-    image: "/img/team/grosu_victor_alessandru.png",
+    image: process.env.PUBLIC_URL + "/img/team/grosu_victor_alessandru.png",
     name: "Victor-Alessandru GROSU",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"

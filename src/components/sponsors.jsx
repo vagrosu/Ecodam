@@ -83,7 +83,7 @@ export const Sponsors = () => {
           <a
             href="https://www.bitdefender.ro" id="sponsors"
           >
-            <SponsorLogo src={"/img/logos/bitdefender_logo.png"} alt="Bitdefender logo"/>
+            <SponsorLogo src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"} alt="Bitdefender logo"/>
           </a>
             <SponsorName>Bitdefender</SponsorName>
         </Card>

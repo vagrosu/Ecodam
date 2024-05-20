@@ -71,7 +71,7 @@ export const Contact = () => {
               <ContactLabel>
                 <i className="fa fa-phone"></i> Phone
               </ContactLabel>
-              <ContactText>+40 232 201490</ContactText>
+              <ContactText>(+40) 232 201 490</ContactText>
             </ContactItem>
             <ContactItem>
               <ContactLabel>

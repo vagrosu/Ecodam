@@ -18,7 +18,7 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img width={100} src={"/img/logos/logo.jpg"} alt="logo"></img>
+            <img width={100} src={process.env.PUBLIC_URL + "/img/logos/logo.jpg"} alt="logo"></img>
           </a>{" "}
         </div>
 
