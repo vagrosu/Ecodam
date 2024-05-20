@@ -19,10 +19,8 @@ const Card = styled.div`
 `;
 
 const ImageContainer = styled.div`
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +29,8 @@ const ImageContainer = styled.div`
 const ProfileImage = styled.img`
     max-width: 100%;
     max-height: 100%;
+    border-radius:50%;
+    object-fit:cover;
 `;
 
 const Name = styled.h4`
