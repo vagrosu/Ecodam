@@ -4,6 +4,7 @@ import styled from "styled-components";
 const SponsorSection = styled.div`
   padding: 60px 200px;
   text-align: center;
+    background-color: white !important;
 `;
 
 const Container = styled.div`
@@ -44,14 +45,14 @@ const Card = styled.div`
     padding: 20px;
     border-radius: 8px;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s;
     margin: auto;
     width: 400px;
     text-align: center;
 
     &:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
     }
 `;
 

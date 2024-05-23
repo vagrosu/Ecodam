@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SectionContainer = styled.div`
-    padding: 40px 20px;
+    padding: 100px 20px;
     background-color: white;
 `
 

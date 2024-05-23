@@ -18,6 +18,18 @@ const Card = styled.div`
     }
 `;
 
+const ComingSoonText = styled.div`
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 100%;
+`;
+
 const ImageContainer = styled.div`
     width: 100px;
     height: 100px;
@@ -29,8 +41,9 @@ const ImageContainer = styled.div`
 const ProfileImage = styled.img`
     max-width: 100%;
     max-height: 100%;
-    border-radius:50%;
-    object-fit:cover;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
 `;
 
 const Name = styled.h4`
@@ -72,7 +85,7 @@ const ResponsiveContainer = styled.div`
 
 const TeamContainer = styled.div`
     margin-top: 50px;
-    padding: 50px 20px;
+    padding: 100px 20px;
     background: #f8f8f8;
 `;
 
@@ -110,33 +123,35 @@ const MembersContainer = styled.div`
     justify-content: center;
 `;
 
-const SpeakerCard = ({speaker}) => {
+const UserCard = ({user}) => {
   return (
     <Card className="col-md-4">
       <ImageContainer>
         <ProfileImage
-          src={speaker.img || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
-          alt={speaker.name}
+          src={user.img || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
+          alt={user.name}
         />
       </ImageContainer>
-      <Name>{speaker.name}</Name>
-      <Role className="text-muted">{speaker.university}</Role>
-      <School className="text-muted">{speaker.location}</School>
+      <Name>{user.name}</Name>
+      {user.university && <Role className="text-muted">{user.university}</Role>}
+      {user.location && <School className="text-muted">{user.location}</School>}
     </Card>
   );
 }
 
-export const Speakers = (props) => {
+export const UsersPresenter = ({id, title, data}) => {
   return (
-    <TeamContainer id="speakers">
+    <TeamContainer id={id}>
       <ResponsiveContainer>
         <Section>
-          <Title>Speakers</Title>
-          <MembersContainer>
-            {props.data.map((speaker, i) => (
-              <SpeakerCard key={`${speaker.name}-${i}`} speaker={speaker}/>
-            ))}
-          </MembersContainer>
+          <Title>{title}</Title>
+          {data ? (
+            <MembersContainer>
+              {data.map((user, i) => (
+                <UserCard key={`${user.name}-${i}`} user={user}/>
+              ))}
+            </MembersContainer>
+          ) : <ComingSoonText>Coming soon!</ComingSoonText>}
         </Section>
       </ResponsiveContainer>
     </TeamContainer>

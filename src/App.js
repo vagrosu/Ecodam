@@ -3,9 +3,10 @@ import SmoothScroll from "smooth-scroll";
 import {Navigation} from "./components/navigation";
 import {Header} from "./components/header";
 import {Program} from "./components/program"
-import {Speakers} from './components/speakers';
+import {UsersPresenter} from './components/usersPresenter';
 import {Team} from "./components/team";
-import data from "./data/speakers.json"
+import {speakers} from "./data/speakers.js"
+import participants from "./data/participants.json"
 import {Sponsors} from "./components/sponsors";
 import {Contact} from "./components/contact";
 
@@ -19,9 +20,10 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 6 - 8, 2023 Alexandru Ioan Cuza University of Iasi, Romania"} />
-      <Speakers data={data} />
+      <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 11 - 14, 2024 Alexandru Ioan Cuza University of Iasi, Romania"} />
+      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} />
       <Program />
+      <UsersPresenter id={"participants"} title={"Participants"} /*data={participants}*/ />
       <Sponsors />
       <Team/>
       <Contact />

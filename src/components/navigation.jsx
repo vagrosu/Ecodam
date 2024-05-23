@@ -4,7 +4,12 @@ export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div className="navbar-header">
+        <div
+          className="navbar-header"
+          style={{
+            display: "flex"
+          }}
+        >
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -42,11 +47,11 @@ export const Navigation = () => {
                 Program
               </a>
             </li>
-            {/*<li>*/}
-            {/*  <a href="#participants" className="page-scroll">*/}
-            {/*    Participants*/}
-            {/*  </a>*/}
-            {/*</li>*/}
+            <li>
+              <a href="#participants" className="page-scroll">
+                Participants
+              </a>
+            </li>
             <li>
               <a href="#sponsor" className="page-scroll">
                 Sponsors
