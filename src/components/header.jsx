@@ -39,6 +39,12 @@ export const Header = ({ title, paragraph }) => {
                   <img width={100} src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"} alt="bitdefender_logo"></img>
                 </a>{" "}
 
+                <a
+                  href="https://www.hotelunirea.ro/ro/"
+                >
+                  <img width={100} src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"} alt="bitdefender_logo"></img>
+                </a>{" "}
+
               </div>
             </div>
           </div>
