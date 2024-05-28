@@ -31,19 +31,20 @@ const ComingSoonText = styled.div`
 `;
 
 const ImageContainer = styled.div`
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #f0f0f0;
+    overflow: hidden;
+
 `;
 
 const ProfileImage = styled.img`
+    width: 100%;
     max-width: 100%;
+    height: 100%;
     max-height: 100%;
-    border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #f0f0f0;
 `;
 
 const Name = styled.h4`
@@ -53,9 +54,10 @@ const Name = styled.h4`
 `;
 
 const Role = styled.p`
+    text-align: center;
     font-size: 14px;
     color: #666;
-    margin: 8px 0 0 0 !important;
+    margin: 0 !important;
 `;
 
 const School = styled.p`
@@ -129,17 +131,18 @@ const UserCard = ({user}) => {
       <ImageContainer>
         <ProfileImage
           src={user.img || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
-          alt={user.name}
+          alt={user.firstName}
+          style={!user.img ? {marginTop: "15px", scale: "1.1"} : undefined}
         />
       </ImageContainer>
-      <Name>{user.name}</Name>
+      <Name>{user.firstName} {user.lastName}</Name>
       {user.university && <Role className="text-muted">{user.university}</Role>}
       {user.location && <School className="text-muted">{user.location}</School>}
     </Card>
   );
 }
 
-export const UsersPresenter = ({id, title, data}) => {
+export const UsersPresenter = ({id, title, data, isToBeSorted = false}) => {
   return (
     <TeamContainer id={id}>
       <ResponsiveContainer>
@@ -147,8 +150,10 @@ export const UsersPresenter = ({id, title, data}) => {
           <Title>{title}</Title>
           {data ? (
             <MembersContainer>
-              {data.map((user, i) => (
-                <UserCard key={`${user.name}-${i}`} user={user}/>
+              {data
+                .sort((a, b) => isToBeSorted && a.lastName.localeCompare(b.lastName))
+                .map((user, i) => (
+                <UserCard key={`${user.firstName}-${i}`} user={user}/>
               ))}
             </MembersContainer>
           ) : <ComingSoonText>Coming soon!</ComingSoonText>}

@@ -47,10 +47,9 @@ const Card = styled.div`
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s;
-    margin: auto;
     width: 400px;
     text-align: center;
-    margin-bottom: 40px;
+    margin: auto auto 40px;
 
     &:hover {
         box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
@@ -60,9 +59,8 @@ const Card = styled.div`
 const SponsorLogo = styled.img`
     width: 300px;
     height: 240px;
-    margin-bottom: 20px;
     transition: transform 0.3s;
-
+    object-fit: contain;
     &:hover {
         transform: scale(1.1);
     }
@@ -72,7 +70,6 @@ const SponsorName = styled.p`
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: #333;
-  margin-block: 20px;
 `;
 
 export const Sponsors = () => {
@@ -96,7 +93,7 @@ export const Sponsors = () => {
           >
             <SponsorLogo src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"} alt="Bitdefender logo"/>
           </a>
-            <SponsorName>Hotel Unirea </SponsorName>
+            <SponsorName>Hotel Unirea</SponsorName>
         </Card>
       </Container>
     </SponsorSection>

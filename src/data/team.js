@@ -1,55 +1,64 @@
 export const organizers = [
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/henri_luchian_img.jpg",
-    name: "Henri LUCHIAN",
+    firstName: "Henri",
+    lastName: "LUCHIAN",
     role: "Director",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/mihaela_breaban_img.jpg",
-    name: "Mihaela BREABĂN",
+    firstName: "Mihaela",
+    lastName: "BREABĂN",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "",
-    name: "Eugen CROITORU",
+    firstName: "Eugen",
+    lastName: "CROITORU",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/dragosGavrilut.jpg",
-    name: "Dragos GAVRILUȚ",
+    firstName: "Dragos",
+    lastName: "GAVRILUȚ",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "",
-    name: "Lucian GÂDIOI",
+    firstName: "Lucian",
+    lastName: "GÂDIOI",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/adrian_iftene_img.jpg",
-    name: "Adrian IFTENE",
+    firstName: "Adrian",
+    lastName: "IFTENE",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/madalina_raschip_img.jpg",
-    name: "Mădălina RĂSCHIP",
+    firstName: "Mădălina",
+    lastName: "RĂSCHIP",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/vlad_radulescu_img.jpg",
-    name: "Vlad RĂDULESCU",
+    firstName: "Vlad",
+    lastName: "RĂDULESCU",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "",
-    name: "Diana TRANDABĂȚ",
+    firstName: "Diana",
+    lastName: "TRANDABĂȚ",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
@@ -58,31 +67,36 @@ export const organizers = [
 export const volunteers = [
   {
     image: "",
-    name: "Laura CORNEI",
+    firstName: "Laura",
+    lastName: "CORNEI",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/oriana_oniciuc.jpg",
-    name: "Oriana ONICIUC",
+    firstName: "Oriana",
+    lastName: "ONICIUC",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: "",
-    name: "Andrei-Iulian OCHIAN",
+    firstName: "Andrei-Iulian",
+    lastName: "OCHIAN",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: process.env.PUBLIC_URL + "/img/team/pricope_marius_andrei.jpeg",
-    name: "Marius Andrei PRICOPE",
+    firstName: "Marius Andrei",
+    lastName: "PRICOPE",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
     image: process.env.PUBLIC_URL + "/img/team/grosu_victor_alessandru.png",
-    name: "Victor-Alessandru GROSU",
+    firstName: "Victor-Alessandru",
+    lastName: "GROSU",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },

@@ -6,7 +6,7 @@ import {Program} from "./components/program"
 import {UsersPresenter} from './components/usersPresenter';
 import {Team} from "./components/team";
 import {speakers} from "./data/speakers.js"
-import participants from "./data/participants.json"
+import {participants} from "./data/participants.js"
 import {Sponsors} from "./components/sponsors";
 import {Contact} from "./components/contact";
 
@@ -20,9 +20,9 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Header title={<><div>Summer School</div><div>Evolutionary Computing in Optimization and Data Mining</div></>} paragraph={"JUNE 11 - 14, 2024"} />      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} />
+      <Header title={<><div>Summer School</div><div>Evolutionary Computing in Optimization and Data Mining</div></>} paragraph={"JUNE 11 - 14, 2024"} />      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted/>
       <Program />
-      <UsersPresenter id={"participants"} title={"Participants"} /*data={participants}*/ />
+      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted/>
       <Sponsors />
       <Team/>
       <Contact />
