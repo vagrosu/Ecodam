@@ -6,7 +6,7 @@ import {Program} from "./components/program"
 import {UsersPresenter} from './components/usersPresenter';
 import {Team} from "./components/team";
 import {speakers} from "./data/speakers.js"
-import participants from "./data/participants.json"
+import {participants} from "./data/participants.js"
 import {Sponsors} from "./components/sponsors";
 import {Contact} from "./components/contact";
 
@@ -21,9 +21,9 @@ function App() {
     <div>
       <Navigation />
       <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 11 - 14, 2024 Alexandru Ioan Cuza University of Iasi, Romania"} />
-      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} />
+      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted/>
       <Program />
-      <UsersPresenter id={"participants"} title={"Participants"} /*data={participants}*/ />
+      <UsersPresenter id={"participants"} title={"Participants"} data={participants} />
       <Sponsors />
       <Team/>
       <Contact />

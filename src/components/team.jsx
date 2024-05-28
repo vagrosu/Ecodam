@@ -19,12 +19,20 @@ const Card = styled.div`
     }
 `;
 
-const ProfileImage = styled.img`
-    width: 100px;
-    height: 100px;
+const ProfileImageContainer = styled.div`
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    object-fit: cover;
     border: 3px solid #f0f0f0;
+    overflow: hidden;
+`
+
+const ProfileImage = styled.img`
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
 `;
 
 const Name = styled.h4`
@@ -112,11 +120,14 @@ const MembersContainer = styled.div`
 const MemberCard = ({member}) => {
   return (
     <Card className="col-md-4">
-      <ProfileImage
-        src={member.image || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
-        alt={member.name}
-      />
-      <Name>{member.name}</Name>
+      <ProfileImageContainer>
+        <ProfileImage
+          src={member.image || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}
+          alt={member.name}
+          style={!member.image ? {marginTop: "15px", scale: "1.1"} : undefined}
+        />
+      </ProfileImageContainer>
+      <Name>{member.firstName} {member.lastName}</Name>
       <Role className="text-muted">{member.role}</Role>
       <School className="text-muted">{member.school}</School>
     </Card>
