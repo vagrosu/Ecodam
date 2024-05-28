@@ -57,6 +57,7 @@ const Role = styled.p`
     text-align: center;
     font-size: 14px;
     color: #666;
+    line-height: 24px;
     margin: 0 !important;
 `;
 
@@ -64,6 +65,7 @@ const School = styled.p`
     text-align: center;
     font-size: 14px;
     color: #888;
+    line-height: 24px;
     margin: 0 !important;
 `;
 
@@ -151,7 +153,7 @@ export const UsersPresenter = ({id, title, data, isToBeSorted = false}) => {
           {data ? (
             <MembersContainer>
               {data
-                .sort((a, b) => isToBeSorted && a.lastName.localeCompare(b.lastName))
+                .sort((a, b) => isToBeSorted ? a.lastName.localeCompare(b.lastName) : 1)
                 .map((user, i) => (
                 <UserCard key={`${user.firstName}-${i}`} user={user}/>
               ))}
