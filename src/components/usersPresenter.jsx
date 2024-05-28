@@ -48,7 +48,7 @@ const ProfileImage = styled.img`
 `;
 
 const Name = styled.h4`
-    margin-top: 15px;
+    margin-block: 15px 10px !important;
     font-size: 18px;
     color: #333;
 `;

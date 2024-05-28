@@ -20,9 +20,10 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Header title={<><div>Summer School</div><div>Evolutionary Computing in Optimization and Data Mining</div></>} paragraph={"JUNE 11 - 14, 2024"} />      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted/>
-      <Program />
+      <Header title={<><div>Summer School</div><div>Evolutionary Computing in Optimization and Data Mining</div></>} paragraph={"JUNE 11 - 14, 2024"} />
       <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted/>
+      <Program />
+      <UsersPresenter id={"participants"} title={"Participants"} data={participants}/>
       <Sponsors />
       <Team/>
       <Contact />

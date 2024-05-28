@@ -36,21 +36,24 @@ const ProfileImage = styled.img`
 `;
 
 const Name = styled.h4`
-    margin-top: 15px;
+    margin-block: 15px 10px !important;
     font-size: 18px;
     color: #333;
 `;
 
 const Role = styled.p`
+    text-align: center;
     font-size: 14px;
+    line-height: 24px;
     color: #666;
+    margin: 0 !important;
 `;
 
 const School = styled.p`
     text-align: center;
     font-size: 14px;
     color: #888;
-    margin: 0;
+    margin: 0 !important;
 `;
 
 const ResponsiveContainer = styled.div`

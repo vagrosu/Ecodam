@@ -1,87 +1,103 @@
 export const participants = [
   {
-    firstName: "Dan-Gabriel",
     lastName: "Anton",
+    firstName: "Dan-Gabriel",
     university: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
-    firstName: "Gheorghe",
     lastName: "Balan",
+    firstName: "Gheorghe"
   },
   {
-    firstName: "Sebastian-Adrian",
     lastName: "Ciobanu",
+    firstName: "Sebastian-Adrian"
   },
   {
-    firstName: "Sergiu-Andrei",
     lastName: "Dinu",
+    firstName: "Sergiu-Andrei"
   },
   {
-    firstName: "Mihai",
     lastName: "Leonte",
+    firstName: "Mihai"
   },
   {
-    firstName: "Marilena",
     lastName: "Lupașcu",
+    firstName: "Marilena"
   },
   {
-    firstName: "Dan-Georgian",
     lastName: "Mărculeț",
+    firstName: "Dan-Georgian"
   },
   {
-    firstName: "Diana",
     lastName: "Mînzat",
+    firstName: "Diana"
   },
   {
-    firstName: "Andi",
     lastName: "Munteanu",
+    firstName: "Andi"
   },
   {
-    firstName: "Oriana-Maria",
     lastName: "Oniciuc",
+    firstName: "Oriana-Maria"
   },
   {
-    firstName: "George",
     lastName: "Popoiu",
+    firstName: "George"
   },
   {
-    firstName: "Nicolae",
     lastName: "Postolachi",
+    firstName: "Nicolae"
   },
   {
-    firstName: "Ciprian-Alin",
     lastName: "Simion",
+    firstName: "Ciprian-Alin"
   },
   {
-    firstName: "Andrei-Tudor",
     lastName: "Timcu",
+    firstName: "Andrei-Tudor"
   },
   {
-    firstName: "Robert-Mihail",
     lastName: "Ungureanu",
+    firstName: "Robert-Mihail"
   },
   {
-    firstName: "Silviu-Constantin",
     lastName: "Vițel",
+    firstName: "Silviu-Constantin"
   },
   {
-    firstName: "Ramona-Georgiana",
     lastName: "Albert",
+    firstName: "Ramona-Georgiana"
   },
   {
-    firstName: "Laura-Maria",
     lastName: "Cornei",
+    firstName: "Laura-Maria"
   },
   {
-    firstName: "George",
     lastName: "Stoica",
+    firstName: "George"
   },
   {
-    firstName: "Andreea",
     lastName: "Borcan",
+    firstName: "Andreea"
   },
   {
-    firstName: "Mihai",
     lastName: "Leonte",
+    firstName: "Mihai"
+  },
+  {
+    lastName: "Donu",
+    firstName: "Alexandru"
+  },
+  {
+    lastName: "Mândru",
+    firstName: "Eugen"
+  },
+  {
+    lastName: "Crudu",
+    firstName: "Cristian"
+  },
+  {
+    lastName: "Dumitraș",
+    firstName: "Marius"
   }
 ]
