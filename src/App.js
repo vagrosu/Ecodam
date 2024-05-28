@@ -20,8 +20,7 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Header title={"Evolutionary Computing in Optimization and Data Mining"} paragraph={"JUNE 11 - 14, 2024 Alexandru Ioan Cuza University of Iasi, Romania"} />
-      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} />
+      <Header title={<><div>Summer School</div><div>Evolutionary Computing in Optimization and Data Mining</div></>} paragraph={"JUNE 11 - 14, 2024"} />      <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} />
       <Program />
       <UsersPresenter id={"participants"} title={"Participants"} /*data={participants}*/ />
       <Sponsors />

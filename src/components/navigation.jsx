@@ -22,9 +22,17 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <img width={100} src={process.env.PUBLIC_URL + "/img/logos/logo.jpg"} alt="logo"></img>
-          </a>{" "}
+          <a className="navbar-brand page-scroll">
+            <a href="http://localhost:3000/#home">
+                <img style={{marginRight: '10px'}} width={100} src={process.env.PUBLIC_URL + "/img/logos/logo.jpg"} alt="logo"></img>
+            </a>
+            <a href="https://www.uaic.ro/">
+                <img style={{marginRight: '10px'}} width={30} src={process.env.PUBLIC_URL + "/img/logos/uaic_logo.png"} alt="logo"></img>
+            </a>
+            <a href="https://www.info.uaic.ro/">
+                <img width={30} src={process.env.PUBLIC_URL + "/img/logos/fii_logo.png"} alt="logo"></img>
+            </a>
+        </a>{" "}
         </div>
 
         <div
