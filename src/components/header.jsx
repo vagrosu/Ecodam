@@ -2,15 +2,23 @@ import React from "react";
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-  background: white !important;
-  height: 100%;
-  padding: 20px 0;
+    background: white !important;
+    height: 100%;
+    padding: 20px 0;
 `;
 
 const Intro = styled.div`
-  position: relative;
-  text-align: center;
-  padding: 40px 0;
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+`;
+
+const LogoImage = styled.img`
+    width: 600px;
+    
+    @media (max-width: 768px) {
+        width: 70%;
+    }
 `;
 
 export const Header = ({ title, paragraph }) => {
@@ -18,9 +26,8 @@ export const Header = ({ title, paragraph }) => {
     <HeaderContainer id="home">
       <Intro>
           <div className="container">
-            <div className="row">
               <div className="intro-text">
-                <img src={process.env.PUBLIC_URL + "/img/logos/logo.png"} width={600} alt="logo"/>
+                <LogoImage src={process.env.PUBLIC_URL + "/img/logos/logo.png"} alt="logo"/>
                 <h1 style={{
                   fontSize: "3em",
                   color: "black",
@@ -44,9 +51,7 @@ export const Header = ({ title, paragraph }) => {
                 >
                   <img width={100} src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"} alt="bitdefender_logo"></img>
                 </a>{" "}
-
               </div>
-            </div>
           </div>
       </Intro>
     </HeaderContainer>
