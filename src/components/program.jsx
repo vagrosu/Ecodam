@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import day2Program from "../data/day2_full_program.pdf";
 
 const SectionContainer = styled.div`
     padding: 100px 20px;
@@ -94,17 +95,32 @@ export const Program = (props) => {
           <SessionItem><StrongText>18:30</StrongText> Gala dinner</SessionItem>
         </SessionList>
 
-        <DayHeader>Wednesday, June 12 – Satellite Workshop</DayHeader>
+        <DayHeader>Wednesday, June 12 – Satellite Workshop
+          <a href={day2Program}
+             target="_blank"
+             rel="noopener noreferrer"
+          > (DOWNLOAD DETAILED PROGRAM)</a>
+        </DayHeader>
         <SessionList>
-          <SessionItem><StrongText>10:00 – 11:30</StrongText> Bioinformatics and Applied Machine Learning Workshop.
-            Research projects. Co-organised with the Core Bioinformatics Team, Wellcome-MRC Cambridge Stem Cell
-            Institute, University of Cambridge</SessionItem>
-          <SessionItem><StrongText>11:30 – 11:45</StrongText> Coffee break</SessionItem>
-          <SessionItem><StrongText>11:45 – 13:15</StrongText> Bioinformatics and Applied Machine Learning Workshop.
-            Research projects</SessionItem>
-          <SessionItem><StrongText>13:30</StrongText> Lunch</SessionItem>
-          <SessionItem><StrongText>16:00 – 18:00</StrongText> Bioinformatics and Applied Machine Learning Workshop.
-            Research projects</SessionItem>
+          <SessionItem><StrongText>09:30 – 11:00</StrongText> Workshop I. Friedrich-Maximilian Weberling (University
+            of Cambridge): Design of biocatalysts through machine learning guided directed evolution. Workshop II.
+            Dorin Miron (Alexandru Ioan Cuza University of Iaşi, University of Cambridge): Molecular HLA typing can
+            improve transplant assignation. Workshop III. Liviu Pirvan (Imperial College, University of Cambridge):
+            The 3D shape of DNA and its predictiveness gene expression.</SessionItem>
+          <SessionItem><StrongText>11:00 – 11:30</StrongText> Coffee break</SessionItem>
+          <SessionItem><StrongText>11:30 – 13:00 </StrongText> Workshop IV. Andi Munteanu (Alexandru Ioan Cuza
+            University of Iaşi, University of Cambridge): StarLng: Stability and robustness assessment of single-cell
+            clustering. Workshop V. Rafael Kollyfas (University of Cambridge): Flufftail: Unveiling Gene Regulatory
+            Network Dynamics through Fuzzy Clustering of Single-Cell RNAseq Data. Workshop VI. Cameron Crawford
+            (University of Cambridge): RobIn: causality embedded in co-variation in the context of Gene Regulatory
+            Networks.</SessionItem>
+          <SessionItem><StrongText>13:30 - 15:00 </StrongText> Lunch</SessionItem>
+          <SessionItem><StrongText>15:00 – 17:00</StrongText> Workshop VII. Cristian Bulgaru (Alexandru Ioan Cuza
+            University of Iaşi, University of Cambridge): Canard: Co-expression ATAC and RNA dynamics (i.e. the
+            challenges of assessing chromatin openness on single-cell data). Workshop VIII. Eleanor Williams (Astra
+            Zeneca, University of Cambridge): Smew & Magpie: Unsupervised learning for spatially-resolved biology.
+            Workshop IX. Miguel Larraz (University of Cambridge): Wren: Integrating genome sequencing with RNA
+            expression</SessionItem>
         </SessionList>
 
         <DayHeader>Thursday, June 13</DayHeader>

@@ -14,7 +14,7 @@ export const speakers = [
         location: "Adelaide, Australia"
     },
     {
-        img: " https://www.corebioinf.stemcells.cam.ac.uk/sites/www.corebioinf.stemcells.cam.ac.uk/files/styles/inline/public/media/imohorianu.jpg",
+        img: "https://www.corebioinf.stemcells.cam.ac.uk/sites/www.corebioinf.stemcells.cam.ac.uk/files/styles/inline/public/media/imohorianu.jpg",
         firstName: "Irina",
         lastName: "Mohorianu",
         university: "University of Cambridge",

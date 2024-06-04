@@ -80,6 +80,13 @@ export const volunteers = [
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
+    image: process.env.PUBLIC_URL + "/img/team/grosu_victor_alessandru.png",
+    firstName: "Victor-Alessandru",
+    lastName: "GROSU",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  {
     image: "",
     firstName: "Andrei-Iulian",
     lastName: "OCHIAN",
@@ -90,13 +97,6 @@ export const volunteers = [
     image: process.env.PUBLIC_URL + "/img/team/pricope_marius_andrei.jpeg",
     firstName: "Marius Andrei",
     lastName: "PRICOPE",
-    role: "Volunteer",
-    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
-  },
-  {
-    image: process.env.PUBLIC_URL + "/img/team/grosu_victor_alessandru.png",
-    firstName: "Victor-Alessandru",
-    lastName: "GROSU",
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },

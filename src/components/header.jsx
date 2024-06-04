@@ -19,8 +19,8 @@ export const Header = ({ title, paragraph }) => {
       <Intro>
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <img src={process.env.PUBLIC_URL + "/img/logos/logo.jpg"} alt="logo"></img>
+              <div className="intro-text">
+                <img src={process.env.PUBLIC_URL + "/img/logos/logo.png"} width={600} alt="logo"/>
                 <h1 style={{
                   fontSize: "3em",
                   color: "black",
