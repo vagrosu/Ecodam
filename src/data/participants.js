@@ -1,103 +1,269 @@
 export const participants = [
+  //University of Cambridge
   {
-    lastName: "Anton",
-    firstName: "Dan-Gabriel",
-    university: "Alexandru Ioan Cuza University of Iaşi, Romania"
+    firstName: "Friedrich Maximilian",
+    lastName: "Weberling",
+    university: "University of Cambridge"
   },
   {
-    lastName: "Balan",
-    firstName: "Gheorghe"
+    firstName: "Rafael",
+    lastName: "Kollyfas",
+    university: "University of Cambridge"
   },
   {
-    lastName: "Ciobanu",
-    firstName: "Sebastian-Adrian"
+    firstName: "Cameron",
+    lastName: "Crawford",
+    university: "University of Cambridge"
   },
   {
+    firstName: "Eleanor",
+    lastName: "Williams",
+    university: "University of Cambridge"
+  },
+  {
+    firstName: "Miguel",
+    lastName: "Larraz",
+    university: "University of Cambridge"
+  },
+  {
+    firstName: "Liviu",
+    lastName: "Pirvan",
+    university: "University of Cambridge"
+  },
+
+  // Alexandru Ioan Cuza University of Iași
+  {
+    firstName: "Dorin",
+    lastName: "Miron",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "Cristian",
+    lastName: "Bulgaru",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "Cristian",
+    lastName: "Simionescu",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "Sergiu-Andrei",
     lastName: "Dinu",
-    firstName: "Sergiu-Andrei"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Dan-Gabriel",
+    lastName: "Anton",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "Gheorghe",
+    lastName: "Balan",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "Mihai",
     lastName: "Leonte",
-    firstName: "Mihai"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Marilena",
     lastName: "Lupașcu",
-    firstName: "Marilena"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Dan-Georgian",
     lastName: "Mărculeț",
-    firstName: "Dan-Georgian"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
-    lastName: "Mînzat",
-    firstName: "Diana"
-  },
-  {
+    firstName: "Andi",
     lastName: "Munteanu",
-    firstName: "Andi"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Oriana-Maria",
     lastName: "Oniciuc",
-    firstName: "Oriana-Maria"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "George",
     lastName: "Popoiu",
-    firstName: "George"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Nicolae",
     lastName: "Postolachi",
-    firstName: "Nicolae"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Ciprian-Alin",
     lastName: "Simion",
-    firstName: "Ciprian-Alin"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Andrei-Tudor",
     lastName: "Timcu",
-    firstName: "Andrei-Tudor"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Robert-Mihail",
     lastName: "Ungureanu",
-    firstName: "Robert-Mihail"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Silviu-Constantin",
     lastName: "Vițel",
-    firstName: "Silviu-Constantin"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Ramona-Georgiana",
     lastName: "Albert",
-    firstName: "Ramona-Georgiana"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Laura-Maria",
     lastName: "Cornei",
-    firstName: "Laura-Maria"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Sebastian",
+    lastName: "Ciobanu",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+  {
+    firstName: "George",
     lastName: "Stoica",
-    firstName: "George"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Andreea",
     lastName: "Borcan",
-    firstName: "Andreea"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
+    firstName: "Mihai",
     lastName: "Leonte",
-    firstName: "Mihai"
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
-    lastName: "Donu",
-    firstName: "Alexandru"
+    firstName: "Silviu-Constantin",
+    lastName: "Vitel",
+    university: "Alexandru Ioan Cuza University of Iași"
   },
   {
-    lastName: "Mândru",
-    firstName: "Eugen"
+    firstName: "Diana",
+    lastName: "Minzat",
+    university: "Alexandru Ioan Cuza University of Iași"
+  },
+
+  // Babeș-Bolyai University
+  {
+    firstName: "Claudia-Ioana",
+    lastName: "Coste",
+    university: "Babeș-Bolyai University"
   },
   {
-    lastName: "Crudu",
-    firstName: "Cristian"
+    firstName: "Ioan",
+    lastName: "Sima",
+    university: "Babeș-Bolyai University"
   },
   {
-    lastName: "Dumitraș",
-    firstName: "Marius"
-  }
+    firstName: "Raluca Diana",
+    lastName: "Chis",
+    university: "Babeș-Bolyai University"
+  },
+
+  //Moldova State University
+  {
+    firstName: "Donu",
+    lastName: "Alexandru",
+    university: "Moldova State University"
+  },
+  {
+    firstName: "Mândru",
+    lastName: "Eugen",
+    university: "Moldova State University"
+  },
+  {
+    firstName: "Crudu",
+    lastName: "Cristian",
+    university: "Moldova State University"
+  },
+  {
+    firstName: "Dumitraș",
+    lastName: "Marius",
+    university: "Moldova State University"
+  },
+
+  //Technical University of Moldova
+  {firstName: "Viorel",
+    lastName: "Munteanu",
+    university: "Technical University of Moldova"
+  },
+  {
+    firstName: "Eugeniu",
+    lastName: "Catlabuga",
+    university: "Technical University of Moldova"
+  },
+  {
+    firstName: "Victor",
+    lastName: "Gordeev",
+    university: "Technical University of Moldova"
+  },
+  {
+    firstName: "Petru",
+    lastName: "Cervac",
+    university: "Technical University of Moldova"
+  },
+
+  //Alecu Russo State University of Bălți
+  {
+    firstName: "Ianina",
+    lastName: "Cazac",
+    university: "Alecu Russo State University of Bălți"
+  },
+  {
+    firstName: "Adela",
+    lastName: "Gorea",
+    university: "Alecu Russo State University of Bălți"
+  },
+  {
+    firstName: "Inna",
+    lastName: "Donos",
+    university: "Alecu Russo State University of Bălți"
+  },
+  {
+    firstName: "Alexandr",
+    lastName: "Parahonko",
+    university: "Alecu Russo State University of Bălți"
+  },
+
+  //Yuriy Fedkovych Chernivtsi National University
+  {
+    firstName: "Tetiana",
+    lastName: "Shchur",
+    university: "Yuriy Fedkovych Chernivtsi National University"
+  },
+  {
+    firstName: "Anastasiia",
+    lastName: "Yuriichuk",
+    university: "Yuriy Fedkovych Chernivtsi National University"
+  },
+  {
+    firstName: "Valeriia",
+    lastName: "Hauka",
+    university: "Yuriy Fedkovych Chernivtsi National University"
+  },
+  {
+    firstName: "Honchar",
+    lastName: "Tetiana",
+    university: "Yuriy Fedkovych Chernivtsi National University"
+  },
+  {
+    firstName: "Klavdiia",
+    lastName: "Zinkova",
+    university: "Yuriy Fedkovych Chernivtsi National University"
+  },
 ]

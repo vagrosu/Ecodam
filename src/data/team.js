@@ -14,6 +14,13 @@ export const organizers = [
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
+    image: process.env.PUBLIC_URL + "/img/team/alboaie_lenuta.jpeg",
+    firstName: "Lenuța",
+    lastName: "Alboaie",
+    role: "Organizer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  {
     image: "",
     firstName: "Eugen",
     lastName: "Croitoru",
@@ -52,13 +59,6 @@ export const organizers = [
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/vlad_radulescu_img.jpg",
     firstName: "Vlad",
     lastName: "Rădulescu",
-    role: "Organizer",
-    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
-  },
-  {
-    image: process.env.PUBLIC_URL + "/img/team/alboaie_lenuta.jpeg",
-    firstName: "Lenuța",
-    lastName: "Alboaie",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },

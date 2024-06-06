@@ -48,12 +48,13 @@ const ProfileImage = styled.img`
 `;
 
 const Name = styled.h4`
+    text-align: center;
     margin-block: 15px 10px !important;
     font-size: 18px;
     color: #333;
 `;
 
-const Role = styled.p`
+const University = styled.p`
     text-align: center;
     font-size: 14px;
     color: #666;
@@ -61,7 +62,7 @@ const Role = styled.p`
     margin: 0 !important;
 `;
 
-const School = styled.p`
+const Location = styled.p`
     text-align: center;
     font-size: 14px;
     color: #888;
@@ -138,8 +139,8 @@ const UserCard = ({user}) => {
         />
       </ImageContainer>
       <Name>{user.firstName} {user.lastName}</Name>
-      {user.university && <Role className="text-muted">{user.university}</Role>}
-      {user.location && <School className="text-muted">{user.location}</School>}
+      {user.university && <University className="text-muted">{user.university}</University>}
+      {user.location && <Location className="text-muted">{user.location}</Location>}
     </Card>
   );
 }
