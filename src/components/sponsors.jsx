@@ -69,7 +69,7 @@ const SponsorLogo = styled.img`
     }
 `;
 
-const SponsorName = styled.p`
+const SponsorTitle = styled.p`
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: #333;
@@ -88,7 +88,7 @@ export const Sponsors = () => {
           >
             <SponsorLogo src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"} alt="Bitdefender logo"/>
           </a>
-            <SponsorName>Bitdefender</SponsorName>
+            <SponsorTitle>Sponsor</SponsorTitle>
         </Card>
         <Card>
           <a
@@ -96,7 +96,7 @@ export const Sponsors = () => {
           >
             <SponsorLogo src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"} alt="Bitdefender logo"/>
           </a>
-            <SponsorName>Hotel Unirea</SponsorName>
+            <SponsorTitle>Hospitability partner</SponsorTitle>
         </Card>
       </Container>
     </SponsorSection>
