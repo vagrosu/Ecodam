@@ -51,7 +51,7 @@ export const organizers = [
   {
     image: "https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/images/participants-photos/madalina_raschip_img.jpg",
     firstName: "Mădălina",
-    lastName: "Rășchip",
+    lastName: "Răschip",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },

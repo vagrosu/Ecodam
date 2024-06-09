@@ -102,6 +102,7 @@ export const Program = (props) => {
           > (DOWNLOAD DETAILED PROGRAM)</a>
         </DayHeader>
         <SessionList>
+          <SessionItem>Coordinators Irina Mohorianu (University of Cambridge) and Liviu Ciortuz (Alexandru Ioan Cuza University of Iași)</SessionItem>
           <SessionItem><StrongText>09:30 – 11:00</StrongText> Workshop I. Friedrich-Maximilian Weberling (University
             of Cambridge): Design of biocatalysts through machine learning guided directed evolution. Workshop II.
             Dorin Miron (Alexandru Ioan Cuza University of Iaşi, University of Cambridge): Molecular HLA typing can

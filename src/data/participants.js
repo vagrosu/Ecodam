@@ -93,18 +93,8 @@ export const participants = [
     university: "Alexandru Ioan Cuza University of Iași"
   },
   {
-    firstName: "Nicolae",
-    lastName: "Postolachi",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
     firstName: "Ciprian-Alin",
     lastName: "Simion",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
-    firstName: "Andrei-Tudor",
-    lastName: "Timcu",
     university: "Alexandru Ioan Cuza University of Iași"
   },
   {
@@ -128,11 +118,6 @@ export const participants = [
     university: "Alexandru Ioan Cuza University of Iași"
   },
   {
-    firstName: "Sebastian",
-    lastName: "Ciobanu",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
     firstName: "George",
     lastName: "Stoica",
     university: "Alexandru Ioan Cuza University of Iași"
@@ -140,21 +125,6 @@ export const participants = [
   {
     firstName: "Andreea",
     lastName: "Borcan",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
-    firstName: "Mihai",
-    lastName: "Leonte",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
-    firstName: "Silviu-Constantin",
-    lastName: "Vitel",
-    university: "Alexandru Ioan Cuza University of Iași"
-  },
-  {
-    firstName: "Diana",
-    lastName: "Minzat",
     university: "Alexandru Ioan Cuza University of Iași"
   },
 
