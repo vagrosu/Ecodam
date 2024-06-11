@@ -23,7 +23,7 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <div className="navbar-brand page-scroll">
-            <a href="/#home">
+            <a href="#home">
                 <img style={{marginRight: '10px'}} width={100} src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="logo"></img>
             </a>
             <a
