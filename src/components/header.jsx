@@ -24,15 +24,14 @@ const LogoImage = styled.img`
 const LiveConference = styled.a`
     position: fixed;
     bottom: 8%;
-    background-color: white;
+    background-color: white !important;
     left: 50%;
     transform: translateX(-50%);
     color: #337ab7;
-    font-size: 1.5em;
+    white-space: nowrap;
+    font-size: 1.375em;
     padding: 10px 20px;
     border-radius: 25px;
-    margin: 0 auto;
-    width: fit-content;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 `;
