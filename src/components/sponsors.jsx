@@ -80,7 +80,7 @@ export const Sponsors = () => {
     <SponsorSection id="sponsor">
       <Container>
         <SectionTitle>
-          <Title>Sponsor</Title>
+          <Title>Sponsors</Title>
         </SectionTitle>
         <Card>
           <a
