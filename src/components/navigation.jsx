@@ -22,17 +22,25 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll">
+          <div className="navbar-brand page-scroll">
             <a href="/#home">
                 <img style={{marginRight: '10px'}} width={100} src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="logo"></img>
             </a>
-            <a href="https://www.uaic.ro/">
+            <a
+              href="https://www.uaic.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
                 <img style={{marginRight: '10px'}} width={30} src={process.env.PUBLIC_URL + "/img/logos/uaic_logo.png"} alt="logo"></img>
             </a>
-            <a href="https://www.info.uaic.ro/">
+            <a
+              href="https://www.info.uaic.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
                 <img width={30} src={process.env.PUBLIC_URL + "/img/logos/fii_logo.png"} alt="logo"></img>
             </a>
-        </a>{" "}
+        </div>{" "}
         </div>
 
         <div
