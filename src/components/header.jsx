@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const HeaderContainer = styled.header`
     background: white !important;
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 40px;
 `;
 
@@ -74,7 +74,7 @@ export const Header = ({title, paragraph}) => {
             </a>
 
             <LiveConference
-              href="https://uaic.webex.com/uaic/j.php?MTID=m727ccd449192e92e9872458086344d9a"
+              href="https://uaic.webex.com/uaic/j.php?MTID=m3a68bb04c26ab6a3009bb3c5fb035c68"
               target="_blank"
               rel="noopener noreferrer"
             >
