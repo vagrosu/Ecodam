@@ -74,7 +74,7 @@ export const Header = ({title, paragraph}) => {
             </a>
 
             <LiveConference
-              href="https://uaic.webex.com/uaic/j.php?MTID=m3a68bb04c26ab6a3009bb3c5fb035c68"
+              href="https://otiliachioaru.my.webex.com/otiliachioaru.my/j.php?MTID=me8ce6f94f5ceaf3d2c47a72c5f60bd40"
               target="_blank"
               rel="noopener noreferrer"
             >
