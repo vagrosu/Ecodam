@@ -78,12 +78,12 @@ export const Navigation = () => {
                 Team
               </a>
             </li>
-            {/*<li>*/}
-            {/*  <a href="#editions" className="page-scroll">*/}
-            {/*    Previous Editions*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*<li>*/}
+            <li>
+              <a href="#editions" className="page-scroll">
+                Previous Editions
+              </a>
+            </li>
+            {/* <li> */}
             {/*  <a href="#gallery" className="page-scroll">*/}
             {/*    Gallery*/}
             {/*  </a>*/}
