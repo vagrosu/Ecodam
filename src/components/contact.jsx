@@ -80,7 +80,7 @@ const iframeHtml = `
 export const Contact = () => {
   return (
     <div>
-      <Section id="editions">
+      <Section id="contact">
         <Container>
           <div>
             <SectionTitle>Contact Info</SectionTitle>
@@ -100,7 +100,7 @@ export const Contact = () => {
               <ContactLabel>
                 <i className="fa fa-envelope-o"></i> Email
               </ContactLabel>
-              <ContactText>summerschool@info.uaic.ro</ContactText>
+              <ContactText>summer-school@info.uaic.ro</ContactText>
             </ContactItem>
           </div>
         </Container>
@@ -108,7 +108,7 @@ export const Contact = () => {
       <IframeContainer dangerouslySetInnerHTML={{ __html: iframeHtml }}></IframeContainer>
       <Footer id="footer">
         <div className="container">
-          <p>&copy; 2024 Ecodam Summer School</p>
+          <p>&copy; 2025 Ecodam Summer School</p>
         </div>
       </Footer>
     </div>
